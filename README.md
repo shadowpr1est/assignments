@@ -6,16 +6,16 @@ Description
 The visualcrossing_weather_adapter.py script fetches weather data from the VisualCrossing API and maps it to a common data model. The retrieved data is then formatted and displayed in a standardized format.
 
 Usage
-Make sure you have the required Python libraries installed. You can install them using pip:
 
-bash
-Copy code
-pip install requests
+Make sure you have the required Python libraries installed.
+ 
+You can install them using pip:
+        pip install requests
+
+
 Run the script using the following command:
+        python visualcrossing_weather_adapter.py
 
-bash
-Copy code
-python visualcrossing_weather_adapter.py
 Enter the name of the city for which you want to fetch weather data when prompted.
 
 The script will fetch and display the weather data, including description, conditions, temperature, feels like, humidity, wind speed, visibility, and the API source (VisualCrossing).
@@ -25,16 +25,14 @@ Description
 The openweathermap_weather_adapter.py script fetches weather data from the OpenWeatherMap API and maps it to a common data model. The retrieved data is then formatted and displayed in a standardized format.
 
 Usage
-Make sure you have the required Python libraries installed. You can install them using pip:
+Make sure you have the required Python libraries installed.
 
-bash
-Copy code
-pip install requests
+You can install them using pip:
+        pip install requests
+
 Run the script using the following command:
+        python openweathermap_weather_adapter.py
 
-bash
-Copy code
-python openweathermap_weather_adapter.py
 Enter the name of the city for which you want to fetch weather data when prompted.
 
 The script will fetch and display the weather data, including description, temperature, feels like, visibility, wind speed, humidity, and the API source (OpenWeatherMap).
